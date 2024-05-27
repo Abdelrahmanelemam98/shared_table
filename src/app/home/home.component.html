@@ -1,0 +1,10 @@
+<div class="holder mt-4">
+  <div class="container">
+    <app-table
+      [data]="data"
+      [columnsData]="columnsData"
+      (rowSelected)="onRowSelected($event)"
+      (allRowsSelected)="onAllRowsSelected($event)"
+    ></app-table>
+  </div>
+</div>
